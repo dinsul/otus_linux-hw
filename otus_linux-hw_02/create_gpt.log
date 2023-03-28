@@ -1,0 +1,196 @@
+==> otuslinux: Running provisioner: shell...
+    otuslinux: Running: /tmp/vagrant-shell20230118-10523-1fymfbb.sh
+    otuslinux: ####### Создаем раздел GPT на RAID #######
+    otuslinux: 
+    otuslinux: ####### Создаём 5 разделов на RAID-диске #######
+    otuslinux: Information: You may need to update /etc/fstab.
+    otuslinux:                                                                           
+    otuslinux: Information: You may need to update /etc/fstab.
+    otuslinux:                                                                           
+    otuslinux: Information: You may need to update /etc/fstab.
+    otuslinux:                                                                           
+    otuslinux: Information: You may need to update /etc/fstab.
+    otuslinux:                                                                           
+    otuslinux: Information: You may need to update /etc/fstab.
+    otuslinux:                                                                           
+    otuslinux: 
+    otuslinux: ##### Создаём раздел md0d1 #####
+    otuslinux: mke2fs 1.45.6 (20-Mar-2020)
+    otuslinux: Creating filesystem with 100352 1k blocks and 25168 inodes
+    otuslinux: Filesystem UUID: c273fde2-5bad-46de-a83e-653f3afaa42e
+    otuslinux: Superblock backups stored on blocks: 
+    otuslinux: 	8193, 24577, 40961, 57345, 73729
+    otuslinux: 
+    otuslinux: Allocating group tables:  0/13
+    otuslinux:      done                            
+    otuslinux: Writing inode tables:  0/13
+    otuslinux:      done                            
+    otuslinux: Creating journal (4096 blocks): 
+    otuslinux: done
+    otuslinux: Writing superblocks and filesystem accounting information:  0/13
+    otuslinux:      
+    otuslinux: done
+    otuslinux: 
+    otuslinux: ##### Монтируем созданный раздел #####
+    otuslinux: 	Checking new partition.
+    otuslinux: 	Partition created if you see this text.
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ##### Создаём раздел md0d2 #####
+    otuslinux: mke2fs 1.45.6 (20-Mar-2020)
+    otuslinux: Creating filesystem with 101376 1k blocks and 25376 inodes
+    otuslinux: Filesystem UUID: 20da1145-f428-4c24-b093-64e71457609a
+    otuslinux: Superblock backups stored on blocks: 
+    otuslinux: 	8193, 24577, 40961, 57345, 73729
+    otuslinux: 
+    otuslinux: Allocating group tables:  0/13     done                            
+    otuslinux: Writing inode tables:  0/13
+    otuslinux:      done                            
+    otuslinux: Creating journal (4096 blocks): 
+    otuslinux: done
+    otuslinux: Writing superblocks and filesystem accounting information: 
+    otuslinux:  0/13
+    otuslinux:      
+    otuslinux: done
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ##### Монтируем созданный раздел #####
+    otuslinux: 	Checking new partition.
+    otuslinux: 	Partition created if you see this text.
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ##### Создаём раздел md0d3 #####
+    otuslinux: mke2fs 1.45.6 (20-Mar-2020)
+    otuslinux: Creating filesystem with 102400 1k blocks and 25688 inodes
+    otuslinux: Filesystem UUID: 4107bf50-1c56-46bf-847f-d485c2162061
+    otuslinux: Superblock backups stored on blocks: 
+    otuslinux: 	8193, 24577, 40961, 57345, 73729
+    otuslinux: 
+    otuslinux: Allocating group tables:  0/13     done                            
+    otuslinux: Writing inode tables:  0/13
+    otuslinux:      done                            
+    otuslinux: Creating journal (4096 blocks): 
+    otuslinux: done
+    otuslinux: Writing superblocks and filesystem accounting information: 
+    otuslinux:  0/13
+    otuslinux:      
+    otuslinux: done
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ##### Монтируем созданный раздел #####
+    otuslinux: 	Checking new partition.
+    otuslinux: 	Partition created if you see this text.
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ##### Создаём раздел md0d4 #####
+    otuslinux: mke2fs 1.45.6 (20-Mar-2020)
+    otuslinux: Creating filesystem with 101376 1k blocks and 25376 inodes
+    otuslinux: Filesystem UUID: a7c01da5-b761-4877-938c-2a9be8b7d464
+    otuslinux: Superblock backups stored on blocks: 
+    otuslinux: 	8193, 24577, 40961, 57345, 73729
+    otuslinux: 
+    otuslinux: Allocating group tables:  0/13     done                            
+    otuslinux: Writing inode tables:  0/13
+    otuslinux:      done                            
+    otuslinux: Creating journal (4096 blocks): 
+    otuslinux: done
+    otuslinux: Writing superblocks and filesystem accounting information: 
+    otuslinux:  0/13
+    otuslinux:      
+    otuslinux: done
+    otuslinux: 
+    otuslinux: ##### Монтируем созданный раздел #####
+    otuslinux: 	Checking new partition.
+    otuslinux: 	Partition created if you see this text.
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ##### Создаём раздел md0d5 #####
+    otuslinux: mke2fs 1.45.6 (20-Mar-2020)
+    otuslinux: Creating filesystem with 100352 1k blocks and 25168 inodes
+    otuslinux: Filesystem UUID: 53eda95d-e70f-40bd-a748-c3b81e88bf30
+    otuslinux: Superblock backups stored on blocks: 
+    otuslinux: 	8193, 24577, 40961, 57345, 73729
+    otuslinux: 
+    otuslinux: Allocating group tables:  0/13     done                            
+    otuslinux: Writing inode tables:  0/13
+    otuslinux:      done                            
+    otuslinux: Creating journal (4096 blocks): 
+    otuslinux: done
+    otuslinux: Writing superblocks and filesystem accounting information: 
+    otuslinux:  0/13
+    otuslinux:      
+    otuslinux: done
+    otuslinux: 
+    otuslinux: ##### Монтируем созданный раздел #####
+    otuslinux: 	Checking new partition.
+    otuslinux: 	Partition created if you see this text.
+    otuslinux: /raid:
+    otuslinux: total 5.0K
+    otuslinux: drwxr-xr-x.  7 root root   71 Jan 18 04:59 .
+    otuslinux: dr-xr-xr-x. 18 root root  236 Jan 18 04:59 ..
+    otuslinux: drwxr-xr-x.  3 root root 1.0K Jan 18 04:59 part1
+    otuslinux: drwxr-xr-x.  3 root root 1.0K Jan 18 04:59 part2
+    otuslinux: drwxr-xr-x.  3 root root 1.0K Jan 18 04:59 part3
+    otuslinux: drwxr-xr-x.  3 root root 1.0K Jan 18 04:59 part4
+    otuslinux: drwxr-xr-x.  3 root root 1.0K Jan 18 04:59 part5
+    otuslinux: 
+    otuslinux: /raid/part1:
+    otuslinux: total 15K
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 7 root root   71 Jan 18 04:59 ..
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 lost+found
+    otuslinux: -rw-r--r--. 1 root root   67 Jan 18 04:59 test.txt
+    otuslinux: 
+    otuslinux: /raid/part1/lost+found:
+    otuslinux: total 13K
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 ..
+    otuslinux: 
+    otuslinux: /raid/part2:
+    otuslinux: total 15K
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 7 root root   71 Jan 18 04:59 ..
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 lost+found
+    otuslinux: -rw-r--r--. 1 root root   67 Jan 18 04:59 test.txt
+    otuslinux: 
+    otuslinux: /raid/part2/lost+found:
+    otuslinux: total 13K
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 ..
+    otuslinux: 
+    otuslinux: /raid/part3:
+    otuslinux: total 15K
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 7 root root   71 Jan 18 04:59 ..
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 lost+found
+    otuslinux: -rw-r--r--. 1 root root   67 Jan 18 04:59 test.txt
+    otuslinux: 
+    otuslinux: /raid/part3/lost+found:
+    otuslinux: total 13K
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 ..
+    otuslinux: 
+    otuslinux: /raid/part4:
+    otuslinux: total 15K
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 7 root root   71 Jan 18 04:59 ..
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 lost+found
+    otuslinux: -rw-r--r--. 1 root root   67 Jan 18 04:59 test.txt
+    otuslinux: 
+    otuslinux: /raid/part4/lost+found:
+    otuslinux: total 13K
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 ..
+    otuslinux: 
+    otuslinux: /raid/part5:
+    otuslinux: total 15K
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 7 root root   71 Jan 18 04:59 ..
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 lost+found
+    otuslinux: -rw-r--r--. 1 root root   67 Jan 18 04:59 test.txt
+    otuslinux: 
+    otuslinux: /raid/part5/lost+found:
+    otuslinux: total 13K
+    otuslinux: drwx------. 2 root root  12K Jan 18 04:59 .
+    otuslinux: drwxr-xr-x. 3 root root 1.0K Jan 18 04:59 ..
+

@@ -1,0 +1,46 @@
+==> otuslinux: Running provisioner: shell...
+    otuslinux: Running: /tmp/vagrant-shell20230118-10523-y8p4wn.sh
+    otuslinux: ####### Удаляем 'сломанный' диск из массива #######
+    otuslinux: mdadm: hot removed /dev/sdb from /dev/md0
+    otuslinux: 
+    otuslinux: ####### Добавляем другой диск в массив #######
+    otuslinux: mdadm: added /dev/sdf
+    otuslinux: 
+    otuslinux: ###### Убеждаемся, что процесс перестройки RAID'а запустился #######
+    otuslinux: Personalities : [raid6] [raid5] [raid4] 
+    otuslinux: md0 : active raid5 sdf[4] sdd[3] sdc[1]
+    otuslinux:       507904 blocks super 1.2 level 5, 512k chunk, algorithm 2 [3/3] [UUU]
+    otuslinux:       
+    otuslinux: unused devices: <none>
+    otuslinux: 
+    otuslinux: /dev/md0:
+    otuslinux:            Version : 1.2
+    otuslinux:      Creation Time : Wed Jan 18 04:59:19 2023
+    otuslinux:         Raid Level : raid5
+    otuslinux:         Array Size : 507904 (496.00 MiB 520.09 MB)
+    otuslinux:      Used Dev Size : 253952 (248.00 MiB 260.05 MB)
+    otuslinux:       Raid Devices : 3
+    otuslinux:      Total Devices : 3
+    otuslinux:        Persistence : Superblock is persistent
+    otuslinux: 
+    otuslinux:        Update Time : Wed Jan 18 04:59:30 2023
+    otuslinux:              State : clean 
+    otuslinux:     Active Devices : 3
+    otuslinux:    Working Devices : 3
+    otuslinux:     Failed Devices : 0
+    otuslinux:      Spare Devices : 0
+    otuslinux: 
+    otuslinux:             Layout : left-symmetric
+    otuslinux:         Chunk Size : 512K
+    otuslinux: 
+    otuslinux: Consistency Policy : resync
+    otuslinux: 
+    otuslinux:               Name : otus-c8:0  (local to host otus-c8)
+    otuslinux:               UUID : c048514e:ad7c72d6:3fc7a196:fa481cbe
+    otuslinux:             Events : 40
+    otuslinux: 
+    otuslinux:     Number   Major   Minor   RaidDevice State
+    otuslinux:        4       8       80        0      active sync   /dev/sdf
+    otuslinux:        1       8       32        1      active sync   /dev/sdc
+    otuslinux:        3       8       48        2      active sync   /dev/sdd
+

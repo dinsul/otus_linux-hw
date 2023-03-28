@@ -1,0 +1,6 @@
+==> otuslinux: Running provisioner: shell...
+    otuslinux: Running: /tmp/vagrant-shell20230118-10523-uj5rtl.sh
+    otuslinux: ####### Создаём конфигурационный файла #######
+    otuslinux: ARRAY /dev/md0 level=raid5 num-devices=3 metadata=1.2 name=otus-c8:0 UUID=c048514e:ad7c72d6:3fc7a196:fa481cbe
+    otuslinux:    devices=/dev/sdb,/dev/sdc,/dev/sdd
+

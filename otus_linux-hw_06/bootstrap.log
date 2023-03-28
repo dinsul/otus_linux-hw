@@ -1,0 +1,103 @@
+    otuslinux: ### Задача #1. Создаём проект, который будем размещать в нашем репозитории
+    otuslinux: #### Исходный код программы
+    otuslinux: #### CMake file
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ### Задача #2. Собираем приложение
+    otuslinux: -- The C compiler identification is GNU 8.5.0
+    otuslinux: -- The CXX compiler identification is GNU 8.5.0
+    otuslinux: -- Detecting C compiler ABI info
+    otuslinux: -- Detecting C compiler ABI info - done
+    otuslinux: -- Check for working C compiler: /bin/cc - skipped
+    otuslinux: -- Detecting C compile features
+    otuslinux: -- Detecting C compile features - done
+    otuslinux: -- Detecting CXX compiler ABI info
+    otuslinux: -- Detecting CXX compiler ABI info - done
+    otuslinux: -- Check for working CXX compiler: /bin/c++ - skipped
+    otuslinux: -- Detecting CXX compile features
+    otuslinux: -- Detecting CXX compile features - done
+    otuslinux: -- Configuring done
+    otuslinux: -- Generating done
+    otuslinux: -- Build files have been written to: /home/vagrant/hello/build
+    otuslinux: [ 50%] Building CXX object CMakeFiles/hello.dir/hello.cpp.o
+    otuslinux: [100%] Linking CXX executable hello
+    otuslinux: [100%] Built target hello
+    otuslinux: 
+    otuslinux: 
+    otuslinux: #### Проверяем, что приложение собралось и работает
+    otuslinux: Hello world!!!
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ### Задача #3. Собираем RPM-пакет
+    otuslinux: Consolidate compiler generated dependencies of target hello
+    otuslinux: [100%] Built target hello
+    otuslinux: Run CPack packaging tool...
+    otuslinux: CPack: Create package using RPM
+    otuslinux: CPack: Install projects
+    otuslinux: CPack: - Run preinstall target for: hello
+    otuslinux: CPack: - Install project: hello []
+    otuslinux: CPack: Create package
+    otuslinux: CPackRPM: Will use GENERATED spec file: /home/vagrant/hello/build/_CPack_Packages/Linux/RPM/SPECS/hello.spec
+    otuslinux: CPack: - package: /home/vagrant/hello/build/hello-0.0.1-Linux.rpm generated.
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ### Задача #4. Создаём локальный репозиторий
+    otuslinux: #### Копируем наш пакет в репозиторий
+    otuslinux: Directory walk started
+    otuslinux: Directory walk done - 1 packages
+    otuslinux: Temporary output repo path: /srv/repo/.repodata/
+    otuslinux: Preparing sqlite DBs
+    otuslinux: Pool started (with 5 workers)
+    otuslinux: Pool finished
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ### Задача #5. Запускаем простейший сервер для доступа репозитория по сети
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ### Задача #6. Подключаем репозиторий
+    otuslinux: otus                otus-linux
+    otuslinux: otus-linux                                      105 kB/s | 1.1 kB     00:00    
+    otuslinux: hello.x86_64                                           0.0.1-1                                                    otus          
+    otuslinux: 
+    otuslinux: 
+    otuslinux: ### Задача #7. Устанавливаем наше приложение через репозиторий, и проверяем его
+    otuslinux: Last metadata expiration check: 0:00:03 ago on Mon 30 Jan 2023 08:10:47 AM EST.
+    otuslinux: Dependencies resolved.
+    otuslinux: ================================================================================
+    otuslinux:  Package          Architecture      Version               Repository       Size
+    otuslinux: ================================================================================
+    otuslinux: Installing:
+    otuslinux:  hello            x86_64            0.0.1-1               otus             11 k
+    otuslinux: 
+    otuslinux: Transaction Summary
+    otuslinux: ================================================================================
+    otuslinux: Install  1 Package
+    otuslinux: Total download size: 11 k
+    otuslinux: Installed size: 11 k
+    otuslinux: Downloading Packages:
+    otuslinux: hello-0.0.1-Linux.rpm                           1.7 MB/s |  11 kB     00:00    
+    otuslinux: --------------------------------------------------------------------------------
+    otuslinux: Total                                           1.1 MB/s |  11 kB     00:00     
+    otuslinux: Running transaction check
+    otuslinux: Transaction check succeeded.
+    otuslinux: Running transaction test
+    otuslinux: Transaction test succeeded.
+    otuslinux: Running transaction
+    otuslinux:   Running scriptlet: hello-0.0.1-1.x86_64                                   1/1
+    otuslinux:  
+    otuslinux:   Preparing        :                                                        1/1
+    otuslinux:  
+    otuslinux:   Running scriptlet: hello-0.0.1-1.x86_64                                   1/1
+    otuslinux:  
+    otuslinux:   Installing       : hello-0.0.1-1.x86_64                                   1/1
+    otuslinux:  
+    otuslinux:   Running scriptlet: hello-0.0.1-1.x86_64                                   1/1
+    otuslinux:  
+    otuslinux:   Verifying        : hello-0.0.1-1.x86_64                                   1/1
+    otuslinux:  
+    otuslinux: 
+    otuslinux: Installed:
+    otuslinux:   hello-0.0.1-1.x86_64                                                          
+    otuslinux: 
+    otuslinux: Complete!
+    otuslinux: Hello world!!!

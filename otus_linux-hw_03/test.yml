@@ -1,0 +1,6 @@
+---
+  sudo: yes
+  tasks:
+      - name: Проверка
+        yum: name=mdadm state=present
+        run: cat /proc/mdstat

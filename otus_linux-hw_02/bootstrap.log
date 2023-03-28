@@ -1,0 +1,65 @@
+==> otuslinux: Running provisioner: shell...
+    otuslinux: Running: /tmp/vagrant-shell20230118-10523-3twadf.sh
+    otuslinux: Last metadata expiration check: -1 day, 19:00:33 ago on Wed 18 Jan 2023 09:58:40 AM EST.
+    otuslinux: Package hdparm-9.54-4.el8.x86_64 is already installed.
+    otuslinux: Dependencies resolved.
+    otuslinux: ================================================================================
+    otuslinux:  Package               Architecture   Version              Repository      Size
+    otuslinux: ================================================================================
+    otuslinux: Installing:
+    otuslinux:  gdisk                 x86_64         1.0.3-11.el8         baseos         241 k
+    otuslinux:  mdadm                 x86_64         4.2-6.el8            baseos         460 k
+    otuslinux:  smartmontools         x86_64         1:7.1-1.el8          baseos         544 k
+    otuslinux: 
+    otuslinux: Transaction Summary
+    otuslinux: ================================================================================
+    otuslinux: Install  3 Packages
+    otuslinux: Total download size: 1.2 M
+    otuslinux: Installed size: 3.8 M
+    otuslinux: Downloading Packages:
+    otuslinux: (1/3): gdisk-1.0.3-11.el8.x86_64.rpm            3.2 MB/s | 241 kB     00:00    
+    otuslinux: (2/3): mdadm-4.2-6.el8.x86_64.rpm               4.2 MB/s | 460 kB     00:00    
+    otuslinux: (3/3): smartmontools-7.1-1.el8.x86_64.rpm       4.3 MB/s | 544 kB     00:00    
+    otuslinux: --------------------------------------------------------------------------------
+    otuslinux: Total                                           2.0 MB/s | 1.2 MB     00:00     
+    otuslinux: CentOS Stream 8 - BaseOS                        1.1 MB/s | 1.6 kB     00:00    
+    otuslinux: Importing GPG key 0x8483C65D:
+    otuslinux:  Userid     : "CentOS (CentOS Official Signing Key) <security@centos.org>"
+    otuslinux:  Fingerprint: 99DB 70FA E1D7 CE22 7FB6 4882 05B5 55B3 8483 C65D
+    otuslinux:  From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+    otuslinux: Key imported successfully
+    otuslinux: Running transaction check
+    otuslinux: Transaction check succeeded.
+    otuslinux: Running transaction test
+    otuslinux: Transaction test succeeded.
+    otuslinux: Running transaction
+    otuslinux:   Preparing        :                                                        1/1
+    otuslinux:  
+    otuslinux:   Running scriptlet: smartmontools-1:7.1-1.el8.x86_64                       1/3
+    otuslinux:  
+    otuslinux:   Installing       : smartmontools-1:7.1-1.el8.x86_64                       1/3
+    otuslinux:  
+    otuslinux:   Running scriptlet: smartmontools-1:7.1-1.el8.x86_64                       1/3
+    otuslinux:  
+    otuslinux:   Installing       : mdadm-4.2-6.el8.x86_64                                 2/3
+    otuslinux:  
+    otuslinux:   Running scriptlet: mdadm-4.2-6.el8.x86_64                                 2/3
+    otuslinux:  
+    otuslinux:   Installing       : gdisk-1.0.3-11.el8.x86_64                              3/3
+    otuslinux:  
+    otuslinux:   Running scriptlet: gdisk-1.0.3-11.el8.x86_64                              3/3
+    otuslinux:  
+    otuslinux:   Verifying        : gdisk-1.0.3-11.el8.x86_64                              1/3 
+    otuslinux:   Verifying        : mdadm-4.2-6.el8.x86_64                                 2/3 
+    otuslinux:   Verifying        : smartmontools-1:7.1-1.el8.x86_64                       3/3
+    otuslinux:  
+    otuslinux: 
+    otuslinux: Installed:
+    otuslinux:   gdisk-1.0.3-11.el8.x86_64                   mdadm-4.2-6.el8.x86_64           
+    otuslinux:   smartmontools-1:7.1-1.el8.x86_64           
+    otuslinux: 
+    otuslinux: Complete!
+    otuslinux: ####### Проверяем количество дисков в системе #######
+    otuslinux:     count of disks is well
+    otuslinux: Welcome!!!
+

@@ -1,0 +1,38 @@
+
+### Добавляем модуль в initrd
+
+#### Создаём скрипт модуля
+
+#### Создаём вспомогательный скрипт
+
+#### Переносим образ initrd
+
+#### Проверяем какие модули загружены
+Image: /boot/initramfs-3.10.0-862.2.3.el7.x86_64.img: 15M
+========================================================================
+Version: dracut-033-535.el7
+
+dracut modules:
+bash
+test
+nss-softokn
+i18n
+drm
+plymouth
+dm
+kernel-modules
+lvm
+qemu
+resume
+rootfs-block
+terminfo
+udev-rules
+biosdevname
+systemd
+usrmount
+base
+fs-lib
+shutdown
+========================================================================
+
+/root

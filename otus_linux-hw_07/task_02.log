@@ -1,0 +1,13 @@
+
+### Переименовываем VG
+
+#### Проверяем текущее состояние томов
+  VG         #PV #LV #SN Attr   VSize   VFree
+  VolGroup00   1   2   0 wz--n- <38.97g    0 
+
+  Volume group "VolGroup00" successfully renamed to "OtusRoot"
+
+#### Проверяем новое состояние томов
+  VG       #PV #LV #SN Attr   VSize   VFree
+  OtusRoot   1   2   0 wz--n- <38.97g    0 
+
